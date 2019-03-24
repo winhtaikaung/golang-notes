@@ -1,10 +1,12 @@
 ## JSON Parsing
-bool, for JSON booleans
-float64, for JSON numbers
-string, for JSON strings
-[]interface{}, for JSON arrays
-map[string]interface{}, for JSON objects
-nil for JSON null
+
+
+ - bool, for JSON booleans float64, 
+ - for JSON numbers string, 
+ - for JSON  strings []interface{}, 
+ - for JSON arrays map[string]interface{}, 
+ - for JSON objects nil for JSON null
+
 
 The defaults that the json package will decode into when the type isn't declared are:
 
